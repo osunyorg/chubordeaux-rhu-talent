@@ -5,7 +5,14 @@ items:
   target: "/projet/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Contexte du projet
+    target: "/projet/contexte-du-projet/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/projet/contexte-du-projet"
+    file: content/fr/pages/projet/contexte-du-projet/_index.html
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Actualités
