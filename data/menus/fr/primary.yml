@@ -43,4 +43,11 @@ items:
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Projet
+  target: "/projet/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/projet"
+  file: content/fr/pages/projet/_index.html
 
