@@ -13,6 +13,13 @@ items:
     children: []
     path: "/pages/projet/contexte-du-projet"
     file: content/fr/pages/projet/contexte-du-projet/_index.html
+  - title: Work packages
+    target: "/projet/work-packages/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/projet/work-packages"
+    file: content/fr/pages/projet/work-packages/_index.html
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Actualités
