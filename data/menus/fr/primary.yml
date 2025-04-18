@@ -61,7 +61,14 @@ items:
   target: "/resultats/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Outils
+    target: "/resultats/outils/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/resultats/outils"
+    file: content/fr/pages/resultats/outils/_index.html
   path: "/pages/resultats"
   file: content/fr/pages/resultats/_index.html
 
