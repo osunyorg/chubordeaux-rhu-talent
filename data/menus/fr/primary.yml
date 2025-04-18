@@ -17,7 +17,14 @@ items:
     target: "/projet/work-packages/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: 'Work package #1'
+      target: "/projet/work-packages/work-package-1/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/projet/work-packages/work-package-1"
+      file: content/fr/pages/projet/work-packages/work-package-1/_index.html
     path: "/pages/projet/work-packages"
     file: content/fr/pages/projet/work-packages/_index.html
   path: "/pages/projet"
