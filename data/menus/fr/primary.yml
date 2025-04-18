@@ -76,6 +76,13 @@ items:
     children: []
     path: "/pages/resultats/outils"
     file: content/fr/pages/resultats/outils/_index.html
+  - title: Bases de données
+    target: "/resultats/bases-de-donnees/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/resultats/bases-de-donnees"
+    file: content/fr/pages/resultats/bases-de-donnees/_index.html
   path: "/pages/resultats"
   file: content/fr/pages/resultats/_index.html
 
