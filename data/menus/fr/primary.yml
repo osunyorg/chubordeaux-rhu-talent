@@ -1,6 +1,13 @@
 ---
 title: Menu principal
 items:
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 - title: Projet
   target: "/projet/"
   kind: page
@@ -29,13 +36,6 @@ items:
     file: content/fr/pages/projet/work-packages/_index.html
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Gouvernance
   target: "/gouverrnance/"
   kind: page
