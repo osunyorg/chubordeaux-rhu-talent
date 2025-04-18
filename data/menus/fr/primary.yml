@@ -36,20 +36,6 @@ items:
     file: content/fr/pages/projet/work-packages/_index.html
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
-- title: Consortium
-  target: "/consortium/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/consortium"
-  file: content/fr/pages/consortium/_index.html
-- title: Gouvernance
-  target: "/gouverrnance/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/gouverrnance"
-  file: content/fr/pages/gouverrnance/_index.html
 - title: Résultats
   target: "/resultats/"
   kind: page
@@ -71,6 +57,20 @@ items:
     file: content/fr/pages/resultats/bases-de-donnees/_index.html
   path: "/pages/resultats"
   file: content/fr/pages/resultats/_index.html
+- title: Consortium
+  target: "/consortium/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/consortium"
+  file: content/fr/pages/consortium/_index.html
+- title: Gouvernance
+  target: "/gouverrnance/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/gouverrnance"
+  file: content/fr/pages/gouverrnance/_index.html
 - title: Contactez-nous
   target: "/contactez-nous/"
   kind: page
