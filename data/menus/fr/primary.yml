@@ -78,6 +78,13 @@ items:
   children: []
   path: "/pages/consortium"
   file: content/fr/pages/consortium/_index.html
+- title: Accueil
+  target: "/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/"
+  file: content/fr/_index.html
 - title: Gouvernance
   target: "/gouvernance-du-projet/"
   kind: page
@@ -106,11 +113,4 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Accueil
-  target: "/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/"
-  file: content/fr/_index.html
 
