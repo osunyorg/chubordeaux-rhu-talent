@@ -99,11 +99,4 @@ items:
   children: []
   path: "/pages/contactez-nous"
   file: content/fr/pages/contactez-nous/_index.html
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
 
