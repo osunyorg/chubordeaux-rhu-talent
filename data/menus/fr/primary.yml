@@ -1,13 +1,13 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  target: "/actualites/"
+- title: Accueil
+  target: "/"
   kind: page
   new_tab: false
   children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
+  path: "/"
+  file: content/fr/_index.html
 - title: Projet
   target: "/projet/"
   kind: page
@@ -50,6 +50,13 @@ items:
     file: content/fr/pages/projet/etudes/_index.html
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 - title: Résultats
   target: "/resultats/"
   kind: page
@@ -78,13 +85,6 @@ items:
   children: []
   path: "/pages/consortium"
   file: content/fr/pages/consortium/_index.html
-- title: Accueil
-  target: "/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/"
-  file: content/fr/_index.html
 - title: Gouvernance
   target: "/gouvernance-du-projet/"
   kind: page
