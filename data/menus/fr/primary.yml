@@ -64,13 +64,6 @@ items:
   children: []
   path: "/pages/consortium"
   file: content/fr/pages/consortium/_index.html
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Résultats
   target: "/resultats/"
   kind: page
@@ -92,6 +85,13 @@ items:
     file: content/fr/pages/resultats/bases-de-donnees/_index.html
   path: "/pages/resultats"
   file: content/fr/pages/resultats/_index.html
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 - title: Contactez-nous
   target: "/contactez-nous/"
   kind: page
