@@ -79,12 +79,12 @@ items:
   path: "/pages/consortium"
   file: content/fr/pages/consortium/_index.html
 - title: Gouvernance
-  target: "/gouverrnance/"
+  target: "/gouvernance-du-projet/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/gouverrnance"
-  file: content/fr/pages/gouverrnance/_index.html
+  path: "/pages/gouvernance-du-projet"
+  file: content/fr/pages/gouvernance-du-projet/_index.html
 - title: Contactez-nous
   target: "/contactez-nous/"
   kind: page
