@@ -34,6 +34,20 @@ items:
       file: content/fr/pages/projet/work-packages/work-package-1/_index.html
     path: "/pages/projet/work-packages"
     file: content/fr/pages/projet/work-packages/_index.html
+  - title: Études
+    target: "/projet/etudes/"
+    kind: page
+    new_tab: false
+    children:
+    - title: 'Étude #1 - Description de l''étude prospective'
+      target: "/projet/etudes/etude-1-description-de-l-etude-prospective/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/projet/etudes/etude-1-description-de-l-etude-prospective"
+      file: content/fr/pages/projet/etudes/etude-1-description-de-l-etude-prospective/_index.html
+    path: "/pages/projet/etudes"
+    file: content/fr/pages/projet/etudes/_index.html
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Résultats
