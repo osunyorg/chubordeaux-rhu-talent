@@ -78,7 +78,7 @@ items:
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
-- title: Contactez-nous
+- title: Contact
   target: "/contactez-nous/"
   kind: page
   new_tab: false
