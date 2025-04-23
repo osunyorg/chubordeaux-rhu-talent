@@ -6,7 +6,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Contexte du projet
+  - title: Contexte
     target: "/projet/contexte-du-projet/"
     kind: page
     new_tab: false
