@@ -85,4 +85,11 @@ items:
   children: []
   path: "/pages/contactez-nous"
   file: content/fr/pages/contactez-nous/_index.html
+- title: Écosystème
+  target: "/ecosysteme/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/ecosysteme"
+  file: content/fr/pages/ecosysteme/_index.html
 
