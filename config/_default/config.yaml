@@ -8,3 +8,8 @@ params:
   logo:
     header: ''
     footer: ''
+  menu:
+    primary:
+      level_2:
+        title:
+          active: true
