@@ -36,13 +36,6 @@ items:
   children: []
   path: "/pages/ecosysteme/gouvernance-du-projet"
   file: content/fr/pages/ecosysteme/gouvernance-du-projet/_index.html
-- title: Consortium
-  target: "/ecosysteme/consortium/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/ecosysteme/consortium"
-  file: content/fr/pages/ecosysteme/consortium/_index.html
 - title: Résultats
   target: "/resultats/"
   kind: page
@@ -75,7 +68,14 @@ items:
   target: "/ecosysteme/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Consortium
+    target: "/ecosysteme/consortium/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/ecosysteme/consortium"
+    file: content/fr/pages/ecosysteme/consortium/_index.html
   path: "/pages/ecosysteme"
   file: content/fr/pages/ecosysteme/_index.html
 - title: Actualités
