@@ -34,6 +34,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Actualités
+    target: "/resultats/actualites/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/posts"
+    file: content/fr/posts/_index.html
   - title: Publications
     target: "/resultats/publications/"
     kind: page
@@ -78,13 +85,6 @@ items:
     file: content/fr/pages/ecosysteme/consortium/_index.html
   path: "/pages/ecosysteme"
   file: content/fr/pages/ecosysteme/_index.html
-- title: Actualités
-  target: "/resultats/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Contact
   target: "/contactez-nous/"
   kind: page
