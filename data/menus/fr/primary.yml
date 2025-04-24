@@ -30,12 +30,12 @@ items:
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Gouvernance
-  target: "/gouvernance-du-projet/"
+  target: "/ecosysteme/gouvernance-du-projet/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/gouvernance-du-projet"
-  file: content/fr/pages/gouvernance-du-projet/_index.html
+  path: "/pages/ecosysteme/gouvernance-du-projet"
+  file: content/fr/pages/ecosysteme/gouvernance-du-projet/_index.html
 - title: Consortium
   target: "/consortium/"
   kind: page
