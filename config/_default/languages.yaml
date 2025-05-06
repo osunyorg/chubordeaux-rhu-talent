@@ -9,6 +9,12 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        linkedin:
+          label: >-
+            linkedin.com
+          value: >-
+            https://www.linkedin.com/
 
   permalinks:
     pages_categories: /:slug/
