@@ -11,7 +11,7 @@ aliases:
   - /projet/etudes/etude-1/
   - /projet/etudes/etude-1-description-de-l-etude-prospective/
 date: 2025-04-20T07:34:54+02:00
-lastmod: 2025-05-06T10:55:32+02:00
+lastmod: 2025-05-06T10:57:25+02:00
 meta:
   hugo:
     permalink: "/projet/etudes/machine-learning-on-retrospective-ecg-data/"
@@ -20,7 +20,7 @@ meta:
     slug: "machine-learning-on-retrospective-ecg-data"
   dates:
     created_at: 2025-04-20T07:22:58+02:00
-    updated_at: 2025-05-06T10:55:32+02:00
+    updated_at: 2025-05-06T10:57:25+02:00
     published_at: 2025-04-20T07:34:54+02:00
 search:
   id: "a4e875bd-3239-47fe-85c2-357c09c09323"
@@ -32,7 +32,7 @@ search:
   summary: >-
     
   body: >-
-    <p>Perimeter  <br>   <br>This appendix describes the general methodological concepts common to the different retrospective <br>studies that will be conducted throughout the project. We will follow the most recent guidelines for AIbased <br>prediction models in healthcare (de Hond et al. NPJ Digit Med. 2022;5(1):2.).</p>  <p> Model construction strategy, objectives  <br>   <br>Definitions and general intermediate and multivariable model construction strategies are presented in the concept appendix. Briefly, our goal is to train AI models to predict biomarkers specific to different cardioembolic stroke disease pathways. This is carried out in two different steps: <br>Develop and validate intermediate models to predict biomarkers relevant to cardioembolic pathogenic processes from resting ECG data. <br>Develop and validate a multivariable prediction model of cardioembolic stroke from resting ECG data, using the intermediate models’ outputs as predictors.</p>  <p> Study population and data preparation  <br>   <br>Lorem ipsum dolor sit amet consectetur. Facilisis id adipiscing facilisi augue feugiat nascetur aliquam convallis. Orci nibh lectus quam faucibus laoreet. Eget vulputate magna tempor tempus id justo vitae. Lacus scelerisque quis nisi nam ultrices aenean purus. Urna at facilisi volutpat amet. Aliquet sed nisi vitae cursus sollicitudin sagittis felis.</p>  <p>ECG</p>  <p> Lettre d'information  <br>  Lorem ipsum dolor sit amet consectetur. Facilisis id adipiscing facilisi augue feugiat nascetur aliquam convallis. <br>Etude #1 - Lettre d'information 2 - Juin 2025</p>  <p>Etude #1 - Lettre d'information 1 - Avril 2025</p>  <p> Contact  <br> Délégué·e à la protection des données Lorem ipsum dolor sit amet consectetur. Facilisis id adipiscing facilisi augue feugiat nascetur aliquam convallis. Orci nibh lectus quam faucibus laoreet. Eget vulputate magna tempor tempus id justo vitae.</p>  <p>24 boulevard Carnot</p>  <p>75000 <br>PARIS <br>FRANCE <br>https://www.noesya.coop/</p>  <p> Autres études </p>
+    <p>Perimeter  <br>   <br>This appendix describes the general methodological concepts common to the different retrospective <br>studies that will be conducted throughout the project. We will follow the most recent guidelines for AIbased <br>prediction models in healthcare (de Hond et al. NPJ Digit Med. 2022;5(1):2.).</p>  <p> Model construction strategy, objectives  <br>   <br>Definitions and general intermediate and multivariable model construction strategies are presented in the concept appendix. Briefly, our goal is to train AI models to predict biomarkers specific to different cardioembolic stroke disease pathways. This is carried out in two different steps: <br>Develop and validate intermediate models to predict biomarkers relevant to cardioembolic pathogenic processes from resting ECG data. <br>Develop and validate a multivariable prediction model of cardioembolic stroke from resting ECG data, using the intermediate models’ outputs as predictors.</p>  <p> Study population and data preparation  <br>   <br>Training datasets will come from different sources. (main sources: CHU Bordeaux, MIMIC IV, LOOP study & Mind the Heart study databases). Data will be prepared in the following way: <br>Selection of patients based on clinical and/or ECG criteria.</p>  <p>Creation of dataset pairs: ECG + prediction target biomarker. Most biomarkers are either biology or imaging based. For this reason, the following data quality criterion have been defined:i. Temporal proximity: biomarkers acquired &gt; 3 months from the ECG are excludedii. Disease stability: datasets with significant changes in the patient’s medical condition between the acquisition of the ECG and the biomarker will be excludediii. Data quality: biomarker measurements will be reviewed by an expert when necessary. <br>Transfer of the ECGs and corresponding biomarker annotations to the TALENT DMZ (research environment) for processing</p>  <p>ECG</p>  <p> Lettre d'information  <br>  Lorem ipsum dolor sit amet consectetur. Facilisis id adipiscing facilisi augue feugiat nascetur aliquam convallis. <br>Etude #1 - Lettre d'information 2 - Juin 2025</p>  <p>Etude #1 - Lettre d'information 1 - Avril 2025</p>  <p> Contact  <br> Délégué·e à la protection des données Lorem ipsum dolor sit amet consectetur. Facilisis id adipiscing facilisi augue feugiat nascetur aliquam convallis. Orci nibh lectus quam faucibus laoreet. Eget vulputate magna tempor tempus id justo vitae.</p>  <p>24 boulevard Carnot</p>  <p>75000 <br>PARIS <br>FRANCE <br>https://www.noesya.coop/</p>  <p> Autres études </p>
 
 breadcrumbs:
   - title: >-
@@ -81,7 +81,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 69
+  seconds: 89
   text: >-
     1 minute
 contents:
@@ -209,14 +209,11 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>Lorem ipsum dolor sit amet consectetur. Facilisis id adipiscing facilisi augue feugiat nascetur aliquam convallis. Orci nibh lectus quam faucibus laoreet. Eget vulputate magna tempor tempus id justo vitae. Lacus scelerisque quis nisi nam ultrices aenean purus. Urna at facilisi volutpat amet. Aliquet sed nisi vitae cursus sollicitudin sagittis felis.</p>
+        <p>Training datasets will come from different sources. (main sources: CHU Bordeaux, MIMIC IV, LOOP study & Mind the Heart study databases). Data will be prepared in the following way:</p><ol> <li>Selection of patients based on clinical and/or ECG criteria. </li> <li>Creation of dataset pairs: ECG + prediction target biomarker. Most biomarkers are either biology or imaging based. For this reason, the following data quality criterion have been defined:<br>i. Temporal proximity: biomarkers acquired &gt; 3 months from the ECG are excluded<br>ii. Disease stability: datasets with significant changes in the patient’s medical condition between the acquisition of the ECG and the biomarker will be excluded<br>iii. Data quality: biomarker measurements will be reviewed by an expert when necessary.</li> <li>Transfer of the ECGs and corresponding biomarker annotations to the TALENT DMZ (research environment) for processing</li> </ol>
 
       notes: >-
         
 
-      image:
-        id: "38ef2bea-0fd8-4818-b3ca-115c5e1baf87"
-        file: "38ef2bea-0fd8-4818-b3ca-115c5e1baf87"
 
       alt: >-
         ECG
