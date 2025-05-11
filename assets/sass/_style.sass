@@ -1,0 +1,34 @@
+footer#document-footer
+    border-top: 2px solid var(--color-accent)
+
+.hero
+    border-bottom: 2px solid var(--color-accent)
+    &-actions
+        --btn-background: #{$color-accent}
+        --btn-color: #{$color-background}
+
+.block-pages--list
+    @include in-page-without-sidebar
+        .top
+            .description
+                p
+                    @include body-text
+
+.page__home
+    .hero
+        margin-bottom: 0
+        .content
+            .hero-text
+                margin-top: 0
+    .block-pages--list
+        background: var(--color-background-alt)
+        margin-top: 0 !important
+        margin-bottom: 0 !important
+        padding-top: var(--block-space-y) !important
+        padding-bottom: var(--block-space-y) !important
+
+.organizations
+    &:not(.with-summaries)
+        .organization
+            .organization-title
+                @include h6
