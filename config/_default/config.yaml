@@ -5,6 +5,8 @@ params:
     position: hero
   search:
     active: true
+  logo:
+    footer: "/assets/images/logo-footer.svg"
   menu:
     primary:
       level_2:
