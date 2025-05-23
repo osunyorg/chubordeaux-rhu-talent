@@ -1,3 +1,9 @@
+header#document-header
+    .nav-level-1
+        > li 
+            a, span
+                font-weight: 600
+
 footer#document-footer
     border-top: 2px solid var(--color-accent)
 
@@ -6,6 +12,13 @@ footer#document-footer
     &-actions
         --btn-background: #{$color-accent}
         --btn-color: #{$color-background}
+
+.toc-content
+    .toc-title
+        font-weight: 600
+    ol
+        li
+            @include signature
 
 .block-pages--list
     @include in-page-without-sidebar
