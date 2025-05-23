@@ -6,12 +6,36 @@ header#document-header
 
 footer#document-footer
     border-top: 2px solid var(--color-accent)
+    font-weight: 600
+    .footer-logo
+        p
+            margin-top: $spacing-3
+    .footer-credit, .footer-logo
+        font-weight: 600
+        color: var(--color-text-alt)
+        a
+            color: var(--color-text)
+    li
+        font-weight: 600
+    .footer-site
+        address
+            span:first-child + span, span > span
+                display: block
+                margin-bottom: $spacing-1
+                margin-top: $spacing-1
+        p
+            margin-top: $spacing-1
+    @include media-breakpoint-up(desktop)
+        .footer-site
+            max-width: columns(6)
 
 .hero
     border-bottom: 2px solid var(--color-accent)
-    &-actions
-        --btn-background: #{$color-accent}
-        --btn-color: #{$color-background}
+    .content
+        .hero-actions
+            margin-top: $spacing-4
+            --btn-background: #{$color-accent}
+            --btn-color: #{$color-background}
 
 .toc-content
     .toc-title
@@ -26,6 +50,24 @@ footer#document-footer
             .description
                 p
                     @include body-text
+        .list
+            a
+                @include meta
+                font-weight: 600
+                &::before
+                    display: none
+    .page
+        > a
+            @include icon(arrow-right-line, after, true)
+                padding-right: $spacing-2
+            @include hover-translate-icon(after, 5)
+            @extend %underline-on-hover
+            &::before
+                display: none
+
+.block-features
+    .name
+        @include h6
 
 .block-posts
     .post-title
@@ -37,6 +79,10 @@ footer#document-footer
         .content
             .hero-text
                 margin-top: 0
+                h1
+                    i
+                        font-style: normal
+                        color: var(--color-text-alt)
     .block-pages--list
         background: var(--color-background-alt)
         margin-top: 0 !important
@@ -49,3 +95,14 @@ footer#document-footer
         .organization
             .organization-title
                 @include h6
+
+a,
+.link
+    @include link
+    overflow-wrap: break-word
+    &[target="_blank"]:not(.icon)
+        @include icon(external-link-line, after, true)
+
+a::after,
+a::before
+    color: var(--color-accent)

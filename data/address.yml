@@ -1,0 +1,24 @@
+contact_details:
+  postal_address:
+    data:
+      address: >-
+        LIRYC - L'institut des maladies du rythme cardiaque <span>Av. du Haut Lévêque</span>
+      address_additional: >-
+        Service d'odontologie <span> Hôpital Xavier Arnozan</span> <span>Groupe hospitalier sud - CHU de Bordeaux</span>
+      zipcode: >-
+        33600
+      city: >-
+        Pessac
+      country:
+        name: >-
+          France
+        alpha2: >-
+          FR
+        alpha3: >-
+          FRA
+  phone_numbers:
+    phone:
+      label: >-
+        +33 (0)5 57 62 34 34
+      value: >-
+        tel: +33557623434
