@@ -1,0 +1,29 @@
+
+.block-pages--list
+    @include in-page-without-sidebar
+        .top
+            .description
+                p
+                    @include body-text
+        .list
+            a
+                @include meta
+                font-weight: 600
+                &::before
+                    display: none
+    .page
+        > a
+            @include icon(arrow-right-line, after, true)
+                padding-right: $spacing-2
+            @include hover-translate-icon(after, 5)
+            @extend %underline-on-hover
+            &::before
+                display: none
+
+.block-features
+    .name
+        @include h6
+
+.block-posts
+    .post-title
+        @include h4

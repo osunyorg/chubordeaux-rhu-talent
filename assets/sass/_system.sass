@@ -15,6 +15,17 @@
     --btn-border: var(--btn-border-width) solid var(--color-border)
     --btn-hover-border: var(--btn-border-width) solid var(--color-border)
 
+a,
+.link
+    @include link
+    overflow-wrap: break-word
+    &[target="_blank"]:not(.icon)
+        @include icon(external-link-line, after, true)
+
+a::after,
+a::before
+    color: var(--color-accent)
+
 header#document-header
     .primary-menu 
         .header-button 
@@ -97,7 +108,7 @@ footer#document-footer
             margin-top: $spacing-4
             a.btn
                 @extend .button--accent
-            
+
 .toc-content
     .toc-title
         font-weight: 600
@@ -105,68 +116,6 @@ footer#document-footer
         li
             @include signature
 
-.block-pages--list
-    @include in-page-without-sidebar
-        .top
-            .description
-                p
-                    @include body-text
-        .list
-            a
-                @include meta
-                font-weight: 600
-                &::before
-                    display: none
-    .page
-        > a
-            @include icon(arrow-right-line, after, true)
-                padding-right: $spacing-2
-            @include hover-translate-icon(after, 5)
-            @extend %underline-on-hover
-            &::before
-                display: none
-
-.block-features
-    .name
-        @include h6
-
-.block-posts
-    .post-title
-        @include h4
-
-.page__home
-    .hero
-        margin-bottom: 0
-        .content
-            .hero-text
-                margin-top: 0
-                h1
-                    i
-                        font-style: normal
-                        color: var(--color-text-alt)
-    .block-pages--list
-        background: var(--color-background-alt)
-        margin-top: 0 !important
-        margin-bottom: 0 !important
-        padding-top: var(--block-space-y) !important
-        padding-bottom: var(--block-space-y) !important
-
-.organizations
-    &:not(.with-summaries)
-        .organization
-            .organization-title
-                @include h6
-
-a,
-.link
-    @include link
-    overflow-wrap: break-word
-    &[target="_blank"]:not(.icon)
-        @include icon(external-link-line, after, true)
-
-a::after,
-a::before
-    color: var(--color-accent)
 
 .section-sidebar
     --border-width: 0

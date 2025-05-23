@@ -1,0 +1,29 @@
+
+.page__home
+    .hero
+        margin-bottom: 0
+        .content
+            .hero-text
+                margin-top: 0
+                h1
+                    i
+                        font-style: normal
+                        color: var(--color-text-alt)
+    .block-pages--list
+        background: var(--color-background-alt)
+        margin-top: 0 !important
+        margin-bottom: 0 !important
+        padding-top: var(--block-space-y) !important
+        padding-bottom: var(--block-space-y) !important
+
+.organizations
+    &:not(.with-summaries)
+        .organization
+            .organization-title
+                @include h6
+
+article.person
+    .contacts-details
+        .linkedin:only-child
+            span
+                display: none
