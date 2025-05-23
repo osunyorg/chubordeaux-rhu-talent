@@ -1,8 +1,69 @@
+\:root
+    --btn-border-width: 0
+
+.button--alt
+    --btn-border-width: 2px
+    --btn-background: var(--color-text)
+    --btn-border: var(--btn-border-width) solid transparent
+    --btn-color: var(--color-background)
+    --btn-hover-background: var(--color-text-alt)
+    --btn-hover-border: var(--btn-border-width) solid transparent
+    --btn-hover-color: var(--color-background)
+
+.button--bordered
+    --btn-border-width: 2px
+    --btn-border: var(--btn-border-width) solid var(--color-border)
+    --btn-hover-border: var(--btn-border-width) solid var(--color-border)
+
 header#document-header
+    .primary-menu 
+        .header-button 
+            span
+                &:first-of-type
+                    text-transform: none
+                &:last-of-type
+                    color: var(--color-accent)
     .nav-level-1
-        > li 
+        --btn-min-width: 0
+        > li
             a, span
                 font-weight: 600
+            &:nth-last-child(3)
+                a
+                    @extend .button
+                    @extend .button--alt
+                    color: var(--btn-color) !important
+            &:nth-last-child(2)
+                a
+                    @extend .button
+                    @extend .button--bordered
+    @include media-breakpoint-up(desktop)
+        .menu
+            flex: 1
+            margin-left: var(--grid-gutter)
+            .nav-level-1
+                .nav-search
+                    margin-left: auto
+                    margin-right: $spacing-3
+                > li:nth-last-child(3)
+                    margin-left: $spacing-3
+                    order: 2
+                > li:nth-last-child(2)
+                    margin-left: $spacing-3
+                    order: 2
+    @include media-breakpoint-down(desktop)
+        .menu
+            .nav-level-1
+                display: flex
+                flex-direction: column
+                padding-bottom: $spacing-3
+                li:nth-last-child(3), li:nth-last-child(2)
+                    border: 0 !important
+                    margin-bottom: $spacing-2
+                    order: 2
+                    a
+                        color: var(--btn-color)
+                        display: block
 
 footer#document-footer
     border-top: 2px solid var(--color-accent)
@@ -34,9 +95,9 @@ footer#document-footer
     .content
         .hero-actions
             margin-top: $spacing-4
-            --btn-background: #{$color-accent}
-            --btn-color: #{$color-background}
-
+            a.btn
+                @extend .button--accent
+            
 .toc-content
     .toc-title
         font-weight: 600
@@ -106,3 +167,29 @@ a,
 a::after,
 a::before
     color: var(--color-accent)
+
+.section-sidebar
+    --border-width: 0
+//     aside
+//         > ul
+//             > li, .taxonomies-single.with-label > li
+//                 border-top: 0 !important
+//                 display: block
+//                 > span, .taxonomies-single.with-label > li  > span
+//                     @include small
+//                     font-weight: 600
+//                     display: block
+//             .authors ul
+//                 text-align: left
+//                 padding-left: 0
+//                 > li
+//                     margin-left: 0
+//     .taxonomies-single.with-label > li
+//         display: block
+//         &:not(:first-child)
+//         > ul
+//             li
+//                 display: block
+//                 margin-left: 0 !important
+//             a
+//                 text-align: left

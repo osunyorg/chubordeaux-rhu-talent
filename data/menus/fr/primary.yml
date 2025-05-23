@@ -92,4 +92,8 @@ items:
   children: []
   path: "/pages/contactez-nous"
   file: content/fr/pages/contactez-nous/_index.html
-
+- title: LinkedIn
+  target: https://www.linkedin.com/company/rhu-talent/
+  kind: url
+  new_tab: true
+  children: []
