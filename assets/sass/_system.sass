@@ -119,26 +119,35 @@ footer#document-footer
 
 .section-sidebar
     --border-width: 0
-//     aside
-//         > ul
-//             > li, .taxonomies-single.with-label > li
-//                 border-top: 0 !important
-//                 display: block
-//                 > span, .taxonomies-single.with-label > li  > span
-//                     @include small
-//                     font-weight: 600
-//                     display: block
-//             .authors ul
-//                 text-align: left
-//                 padding-left: 0
-//                 > li
-//                     margin-left: 0
-//     .taxonomies-single.with-label > li
-//         display: block
-//         &:not(:first-child)
-//         > ul
-//             li
-//                 display: block
-//                 margin-left: 0 !important
-//             a
-//                 text-align: left
+    *
+        font-weight: 600
+    aside
+        > ul
+            // *
+            //     display: inline-block !important
+            //     vertical-align: baseline
+            > li, .taxonomies-single.with-label > li, time, .reading-time span
+                border-top: 0 !important
+                display: block
+                > span, .taxonomies-single.with-label > li  > span
+                    @include small
+                    font-weight: 600
+            .authors ul
+                text-align: left
+                padding-left: 0
+                > li
+                    margin-left: 0
+            ul.share
+                justify-content: start
+                > li:first-child
+                    margin-left: pxToRem(-14)
+        .terms
+
+    .taxonomies-single.with-label > li
+        &:not(:first-child)
+        > ul
+            li
+                display: block
+                margin-left: 0 !important
+            a
+                text-align: left
