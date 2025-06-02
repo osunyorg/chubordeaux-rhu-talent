@@ -1,7 +1,10 @@
 ---
 name: A_logo-Inria_RF-Inria_Logo_RVB_200x64.jpg
 size: 6418
-format: square
+width: 200
+height: 64
+ratio: 3.125
+format: landscape
 url: https://chubordeaux.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6ImYxNjUyN2IzLWFjZWQtNGEzNC04Mjk0LTE4YjA2YzJiOGZmZCIsInB1ciI6ImJsb2JfaWQifX0=--7dcb88d9a611970491405c7068994a18cf7d353a/A_logo-Inria_RF-Inria_Logo_RVB_200x64.jpg
 direct_url: https://osuny.s3.fr-par.scw.cloud/tk9g7qbok97puhp3yiav8876u7e5
 download_url: https://chubordeaux.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImYxNjUyN2IzLWFjZWQtNGEzNC04Mjk0LTE4YjA2YzJiOGZmZCIsInB1ciI6ImJsb2JfaWQifX0=--7dcb88d9a611970491405c7068994a18cf7d353a
