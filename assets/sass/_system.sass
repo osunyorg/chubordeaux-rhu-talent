@@ -82,6 +82,8 @@ footer#document-footer
     .footer-logo
         p
             margin-top: $spacing-3
+            @include media-breakpoint-up(desktop)
+                width: columns(5)
     .footer-credit, .footer-logo
         font-weight: 600
         color: var(--color-text-alt)
