@@ -16,15 +16,6 @@ fr:
           value: >-
             https://www.linkedin.com/
 
-  permalinks:
-    pages_categories: /:slug/
-    posts: /resultats/actualites/:year-:month-:day-:slug/
-    posts_categories: /resultats/actualites/:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
-    persons: /equipe/:slug/
-    persons_categories: /equipe/categories/:slug/
-    authors: /equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
