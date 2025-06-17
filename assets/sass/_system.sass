@@ -82,7 +82,12 @@ footer#document-footer
     .footer-logo
         p
             margin-top: $spacing-3
-            @include media-breakpoint-up(desktop)
+        @include media-breakpoint-up(desktop)
+            display: flex
+            justify-content: space-between
+            flex: 1
+            p
+                margin-top: 0
                 width: columns(5)
     .footer-credit, .footer-logo
         font-weight: 600
@@ -92,6 +97,7 @@ footer#document-footer
     li
         font-weight: 600
     .footer-site
+        display: none
         address
             span:first-child + span, span > span
                 display: block
