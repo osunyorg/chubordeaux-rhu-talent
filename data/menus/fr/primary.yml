@@ -21,12 +21,12 @@ items:
     path: "/pages/projet/work-packages"
     file: content/fr/pages/projet/work-packages/_index.html
   - title: Études
-    target: "/projet/etudes/"
+    target: "/projet/etudes-de-validation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet/etudes"
-    file: content/fr/pages/projet/etudes/_index.html
+    path: "/pages/projet/etudes-de-validation"
+    file: content/fr/pages/projet/etudes-de-validation/_index.html
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Résultats
@@ -97,3 +97,4 @@ items:
   kind: url
   new_tab: true
   children: []
+
