@@ -1,6 +1,9 @@
 ---
 name: loic-cadour.jpg
 size: 98111
+width: 720
+height: 720
+ratio: 1.0
 format: square
 url: https://chubordeaux.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6ImUzNjE3YjIyLTI2MTItNGM4Zi04YjBjLTQwOTIxNTNjYWE3NSIsInB1ciI6ImJsb2JfaWQifX0=--2b557f1214fb15f9a70a1d9a00b8268b0bc15edc/loic-cadour.jpg
 direct_url: https://osuny.s3.fr-par.scw.cloud/x0voqbm3ik08buctotn4jc34ahnf
