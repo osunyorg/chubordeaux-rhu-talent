@@ -88,7 +88,7 @@ footer#document-footer
             flex: 1
             p
                 margin-top: 0
-                width: columns(5)
+                max-width: columns(8)
                 text-align: right
     .footer-credit, .footer-logo
         font-weight: 600
@@ -107,6 +107,12 @@ footer#document-footer
         p
             margin-top: $spacing-1
     @include media-breakpoint-up(desktop)
+        .footer-legals
+            ul
+                display: flex
+                gap: $spacing-3
+                li
+                    margin-top: 0 !important
         .footer-site
             max-width: columns(6)
 

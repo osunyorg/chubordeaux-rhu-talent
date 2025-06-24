@@ -12,11 +12,6 @@ params:
       level_2:
         title:
           active: true
-  posts:
-    index:
-      options:
-        image: false
-
   categories:
     index:
       layout: list
