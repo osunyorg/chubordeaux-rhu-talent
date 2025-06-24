@@ -17,3 +17,11 @@ params:
       layout: list
       options:
         image: false
+  publications:
+    index:
+      group_by_year: false
+      filters:
+        anr:
+          - ANR-23-IACL-0001
+          - ANR-10-IAHU-0004
+          - ANR-19-P3IA-0002
