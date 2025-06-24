@@ -1,0 +1,29 @@
+---
+name: >-
+  LIRYC
+contact_details:
+  postal_address:
+    data:
+      address_name: >-
+        LIRYC - L'institut des maladies du rythme cardiaque
+      address: >-
+        Av. du Haut Lévêque
+      address_additional: >-
+        Service d'odontologie Hôpital Xavier Arnozan Groupe hospitalier sud - CHU de Bordeaux
+      zipcode: >-
+        33600
+      city: >-
+        Pessac
+      country:
+        name: >-
+          France
+        alpha2: >-
+          FR
+        alpha3: >-
+          FRA
+    text: >-
+      LIRYC - L'institut des maladies du rythme cardiaque Av. du Haut Lévêque Service d'odontologie Hôpital Xavier Arnozan Groupe hospitalier sud - CHU de Bordeaux 33600 Pessac FRANCE
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="name">LIRYC - L'institut des maladies du rythme cardiaque</span> <span itemprop="streetAddress">Av. du Haut Lévêque</span> <span itemprop="description">Service d'odontologie Hôpital Xavier Arnozan Groupe hospitalier sud - CHU de Bordeaux</span> <span itemprop="postalCode">33600</span> <span itemprop="addressLocality">Pessac</span> <span itemprop="addressCountry">FRANCE</span></address>
+
+---
