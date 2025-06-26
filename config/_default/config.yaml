@@ -17,3 +17,8 @@ params:
       layout: list
       options:
         image: false
+  publications:
+    filters:
+      anr:
+        - ANR-23-RHUS-0015
+        - ANR-10-IAHU-0004
