@@ -12,9 +12,9 @@ fr:
       social_networks:
         linkedin:
           label: >-
-            linkedin.com
+            rhu-talent
           value: >-
-            https://www.linkedin.com/
+            https://www.linkedin.com/company/rhu-talent/
 
   taxonomies:
     administrator: administrators
