@@ -5,7 +5,6 @@ allowed_domains:
   - "*.osuny.org"
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
-  - "presentations.iscat.net"
   - "youtube.com"
   - "www.youtube.com"
   - "img.youtube.com"
