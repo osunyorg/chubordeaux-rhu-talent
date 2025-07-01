@@ -15,6 +15,11 @@
     --btn-border: var(--btn-border-width) solid var(--color-border)
     --btn-hover-border: var(--btn-border-width) solid var(--color-border)
 
+.button 
+    &::after,
+    &::before
+        color: currentColor
+
 a,
 .link
     @include link
