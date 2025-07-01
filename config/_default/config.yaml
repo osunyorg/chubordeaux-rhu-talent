@@ -12,6 +12,9 @@ params:
       level_2:
         title:
           active: true
+  default:
+    sitemap:
+      ignore_children: true
   categories:
     index:
       layout: list
