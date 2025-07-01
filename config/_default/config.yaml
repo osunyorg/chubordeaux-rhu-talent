@@ -17,6 +17,9 @@ params:
       layout: list
       options:
         image: false
+  persons:
+    contact_details:
+      with_labels: false
   publications:
     filters:
       anr:
