@@ -1,0 +1,17 @@
+{{ $attribute := "" }}
+
+{{ if site.Params.search.active }}
+  {{ if .Params.ignore.in_search }}
+    {{ $attribute = "data-pagefind-ignore" }}
+  {{ else }}
+    {{ $attribute = "data-pagefind-body" }}
+  {{ end }}
+{{ end }}
+
+{{ if eq .Type "publications" }}
+  {{ if not (intersect .Params.anr_project_references site.Params.publications.filters.anr) }}
+    {{ $attribute = "data-pagefind-ignore" }}
+  {{ end }}
+{{ end }}
+
+{{ return $attribute }}
