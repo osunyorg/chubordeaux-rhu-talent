@@ -1,6 +1,9 @@
 ---
 name: gray.png
 size: 2021
+width: 650
+height: 650
+ratio: 1.0
 format: square
 url: https://chubordeaux.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6ImViZWMxZDAyLTU1MGItNDJlOC04ZGJhLTdmNDFmZTA0ZDM4NyIsInB1ciI6ImJsb2JfaWQifX0=--3dca4161c6f39219506934491ef77036c6d597bd/gray.png
 direct_url: https://osuny.s3.fr-par.scw.cloud/6tuk97z1stvu1rvhxkoq03uk6g3f
