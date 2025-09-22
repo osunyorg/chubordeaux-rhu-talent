@@ -23,8 +23,14 @@
 .block-features
     .name
         @include h6
-    li figure picture.is-png
-        padding-top: 0
+    li
+        figure
+            picture
+                &.is-png
+                    padding-top: 0
+                &:not(.is-png, .is-svg)
+                    img
+                        aspect-ratio: auto
 
 .block-posts
     .post-title
