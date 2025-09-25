@@ -1,6 +1,7 @@
 theme: osuny
 _merge: deep
 params:
+  plausible: rhu-talent.fr
   summary:
     position: hero
   search:
