@@ -38,10 +38,11 @@
     display: none !important
 
 .pages__section .toc
-    a[href="#organizations"],
-    a[href="#persons"],
-    a[href="#events"]
-        display: none
+    li
+        &:has(a[href="#organizations"]),
+        &:has(a[href="#persons"]),
+        &:has(a[href="#events"])
+            display: none
 
 .publications__page
     .siblings-container
