@@ -2,99 +2,136 @@
 title: Menu principal
 items:
 - title: Projet
+  slug: projet
   target: "/projet/"
   kind: page
   new_tab: false
   children:
   - title: Contexte
+    slug: contexte
     target: "/projet/contexte-du-projet/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projet/contexte-du-projet"
     file: content/fr/pages/projet/contexte-du-projet/_index.html
   - title: Work packages
+    slug: work-packages
     target: "/projet/work-packages/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projet/work-packages"
     file: content/fr/pages/projet/work-packages/_index.html
   - title: Études
+    slug: etudes
     target: "/projet/etudes-de-validation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projet/etudes-de-validation"
     file: content/fr/pages/projet/etudes-de-validation/_index.html
+  descendants_targets:
+  - "/projet/contexte-du-projet/"
+  - "/projet/etudes-de-validation/"
+  - "/projet/work-packages/"
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Résultats
+  slug: resultats
   target: "/resultats/"
   kind: page
   new_tab: false
   children:
   - title: Actualités
+    slug: actualites
     target: "/resultats/actualites/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Publications
+    slug: publications
     target: "/resultats/publications/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/resultats/publications"
     file: content/fr/pages/resultats/publications/_index.html
   - title: Outils
+    slug: outils
     target: "/resultats/outils/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/resultats/outils"
     file: content/fr/pages/resultats/outils/_index.html
   - title: Bases de données
+    slug: bases-de-donnees
     target: "/resultats/bases-de-donnees/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/resultats/bases-de-donnees"
     file: content/fr/pages/resultats/bases-de-donnees/_index.html
+  descendants_targets:
+  - "/resultats/actualites/"
+  - "/resultats/bases-de-donnees/"
+  - "/resultats/outils/"
+  - "/resultats/publications/"
   path: "/pages/resultats"
   file: content/fr/pages/resultats/_index.html
 - title: Écosystème
+  slug: ecosysteme
   target: "/ecosysteme/"
   kind: page
   new_tab: false
   children:
   - title: Gouvernance
+    slug: gouvernance
     target: "/ecosysteme/gouvernance-du-projet/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/ecosysteme/gouvernance-du-projet"
     file: content/fr/pages/ecosysteme/gouvernance-du-projet/_index.html
   - title: Consortium
+    slug: consortium
     target: "/ecosysteme/consortium/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/ecosysteme/consortium"
     file: content/fr/pages/ecosysteme/consortium/_index.html
+  descendants_targets:
+  - "/ecosysteme/consortium/"
+  - "/ecosysteme/gouvernance-du-projet/"
   path: "/pages/ecosysteme"
   file: content/fr/pages/ecosysteme/_index.html
 - title: Contact
+  slug: contact
   target: "/contactez-nous/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/contactez-nous"
   file: content/fr/pages/contactez-nous/_index.html
 - title: LinkedIn
+  slug: linkedin
   target: https://www.linkedin.com/company/rhu-talent/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
