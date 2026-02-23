@@ -7,6 +7,11 @@ osuny:
   website:
     id: 4ab26399-ce2f-4d5f-a8e4-4c9e9f6a13c5
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "rhu-talent.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
