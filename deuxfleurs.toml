@@ -13,3 +13,176 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/actualites/2025-04-12-resultat-scientifique-b-pour-le-wp1/"
+to = "/resultats/actualites/2025-01-29-talent-participe-au-lancement-d-eds-nova/"
+
+[[redirects]]
+from = "/actualites/"
+to = "/resultats/actualites/"
+
+[[redirects]]
+from = "/organisations/categories/partenaires-industriels/"
+to = "/organisations/categories/consortium/partenaires-industriels/"
+
+[[redirects]]
+from = "/actualites/resultat/wp1/"
+to = "/resultats/actualites/work-package/wp1/"
+
+[[redirects]]
+from = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises-en-prev/"
+to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
+
+[[redirects]]
+from = "/projet/etudes/etude-1-description-de-l-etude-prospective/"
+to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
+
+[[redirects]]
+from = "/organisations/cardiologs/"
+to = "/organisations/philips-cardiologs/"
+
+[[redirects]]
+from = "/actualites/work-package/wp2/"
+to = "/resultats/actualites/work-package/wp2/"
+
+[[redirects]]
+from = "/projet/etudes/etude-1/"
+to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
+
+[[redirects]]
+from = "/projet/etudes/machine-learning-on-retrospective-ecg-data/"
+to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
+
+[[redirects]]
+from = "/actualites/type/intervention/"
+to = "/resultats/actualites/type/intervention/"
+
+[[redirects]]
+from = "/gouvernance-du-projet/"
+to = "/ecosysteme/gouvernance-du-projet/"
+
+[[redirects]]
+from = "/actualites/2025-04-18-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+to = "/resultats/actualites/2024-11-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+
+[[redirects]]
+from = "/actualites/resultat/wp4/"
+to = "/resultats/actualites/work-package/wp4/"
+
+[[redirects]]
+from = "/actualites/resultat/wp3/"
+to = "/resultats/actualites/work-package/wp3/"
+
+[[redirects]]
+from = "/organisations/fondation-bordeaux-universite-ihu-liryc/"
+to = "/organisations/ihu-liryc/"
+
+[[redirects]]
+from = "/resultats/actualites/2025-05-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+to = "/resultats/actualites/2024-11-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+
+[[redirects]]
+from = "/resultats/actualites/wp1/"
+to = "/resultats/actualites/work-package/wp1/"
+
+[[redirects]]
+from = "/organisations/chu-dijon/"
+to = "/organisations/chu-dijon-bourgogne/"
+
+[[redirects]]
+from = "/actualites/resultat/wp5/"
+to = "/resultats/actualites/work-package/wp5/"
+
+[[redirects]]
+from = "/consortium/"
+to = "/ecosysteme/consortium/"
+
+[[redirects]]
+from = "/actualites/work-package/wp3/"
+to = "/resultats/actualites/work-package/wp3/"
+
+[[redirects]]
+from = "/equipe/emmanuek-gothie/"
+to = "/equipe/emmanuel-gothie/"
+
+[[redirects]]
+from = "/organisations/categories/partenaires-academiques/"
+to = "/organisations/categories/consortium/partenaires-academiques/"
+
+[[redirects]]
+from = "/actualites/type/resultat/"
+to = "/resultats/actualites/type/resultat/"
+
+[[redirects]]
+from = "/resultats/actualites/2025-04-12-resultat-scientifique-b-pour-le-wp1/"
+to = "/resultats/actualites/2025-01-29-talent-participe-au-lancement-d-eds-nova/"
+
+[[redirects]]
+from = "/actualites/work-package/wp1/"
+to = "/resultats/actualites/work-package/wp1/"
+
+[[redirects]]
+from = "/actualites/resultat/"
+to = "/resultats/actualites/work-package/"
+
+[[redirects]]
+from = "/gouverrnance/"
+to = "/ecosysteme/gouvernance-du-projet/"
+
+[[redirects]]
+from = "/projet/etudes/"
+to = "/projet/etudes-de-validation/"
+
+[[redirects]]
+from = "/organisations/chu-bordeaux/"
+to = "/organisations/chu-de-bordeaux/"
+
+[[redirects]]
+from = "/equipe/daniel-bovio/"
+to = "/equipe/daniele-bovio/"
+
+[[redirects]]
+from = "/actualites/2025-04-20-resultat-scientifique-c-pour-le-wp1/"
+to = "/resultats/actualites/2025-04-20-resultat-scientifique-c-pour-le-wp1/"
+
+[[redirects]]
+from = "/actualites/publication/"
+to = "/resultats/actualites/type/publication/"
+
+[[redirects]]
+from = "/resultats/actualites/2025-04-18-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+to = "/resultats/actualites/2024-11-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+
+[[redirects]]
+from = "/actualites/work-package/"
+to = "/resultats/actualites/work-package/"
+
+[[redirects]]
+from = "/actualites/resultat/wp2/"
+to = "/resultats/actualites/work-package/wp2/"
+
+[[redirects]]
+from = "/actualites/type/"
+to = "/resultats/actualites/type/"
+
+[[redirects]]
+from = "/actualites/work-package/wp5/"
+to = "/resultats/actualites/work-package/wp5/"
+
+[[redirects]]
+from = "/actualites/work-package/wp4/"
+to = "/resultats/actualites/work-package/wp4/"
+
+[[redirects]]
+from = "/projet/etudes-de-validation/machine-learning-on-retrospective-ecg-data/"
+to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
+
+[[redirects]]
+from = "/actualites/type/publication/"
+to = "/resultats/actualites/type/publication/"
+
+[[redirects]]
+from = "/liryc/"
+to = "/laboratoires/liryc/"
+
