@@ -15,174 +15,174 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/actualites/2025-04-12-resultat-scientifique-b-pour-le-wp1/"
+from = "/actualites/2025-04-12-resultat-scientifique-b-pour-le-wp1/index.html"
 to = "/resultats/actualites/2025-01-29-talent-participe-au-lancement-d-eds-nova/"
 
 [[redirects]]
-from = "/actualites/"
+from = "/actualites/index.html"
 to = "/resultats/actualites/"
 
 [[redirects]]
-from = "/organisations/categories/partenaires-industriels/"
+from = "/organisations/categories/partenaires-industriels/index.html"
 to = "/organisations/categories/consortium/partenaires-industriels/"
 
 [[redirects]]
-from = "/actualites/resultat/wp1/"
+from = "/actualites/resultat/wp1/index.html"
 to = "/resultats/actualites/work-package/wp1/"
 
 [[redirects]]
-from = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises-en-prev/"
+from = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises-en-prev/index.html"
 to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
 
 [[redirects]]
-from = "/projet/etudes/etude-1-description-de-l-etude-prospective/"
+from = "/projet/etudes/etude-1-description-de-l-etude-prospective/index.html"
 to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
 
 [[redirects]]
-from = "/organisations/cardiologs/"
+from = "/organisations/cardiologs/index.html"
 to = "/organisations/philips-cardiologs/"
 
 [[redirects]]
-from = "/actualites/work-package/wp2/"
+from = "/actualites/work-package/wp2/index.html"
 to = "/resultats/actualites/work-package/wp2/"
 
 [[redirects]]
-from = "/projet/etudes/etude-1/"
+from = "/projet/etudes/etude-1/index.html"
 to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
 
 [[redirects]]
-from = "/projet/etudes/machine-learning-on-retrospective-ecg-data/"
+from = "/projet/etudes/machine-learning-on-retrospective-ecg-data/index.html"
 to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
 
 [[redirects]]
-from = "/actualites/type/intervention/"
+from = "/actualites/type/intervention/index.html"
 to = "/resultats/actualites/type/intervention/"
 
 [[redirects]]
-from = "/gouvernance-du-projet/"
+from = "/gouvernance-du-projet/index.html"
 to = "/ecosysteme/gouvernance-du-projet/"
 
 [[redirects]]
-from = "/actualites/2025-04-18-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+from = "/actualites/2025-04-18-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/index.html"
 to = "/resultats/actualites/2024-11-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
 
 [[redirects]]
-from = "/actualites/resultat/wp4/"
+from = "/actualites/resultat/wp4/index.html"
 to = "/resultats/actualites/work-package/wp4/"
 
 [[redirects]]
-from = "/actualites/resultat/wp3/"
+from = "/actualites/resultat/wp3/index.html"
 to = "/resultats/actualites/work-package/wp3/"
 
 [[redirects]]
-from = "/organisations/fondation-bordeaux-universite-ihu-liryc/"
+from = "/organisations/fondation-bordeaux-universite-ihu-liryc/index.html"
 to = "/organisations/ihu-liryc/"
 
 [[redirects]]
-from = "/resultats/actualites/2025-05-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+from = "/resultats/actualites/2025-05-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/index.html"
 to = "/resultats/actualites/2024-11-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
 
 [[redirects]]
-from = "/resultats/actualites/wp1/"
+from = "/resultats/actualites/wp1/index.html"
 to = "/resultats/actualites/work-package/wp1/"
 
 [[redirects]]
-from = "/organisations/chu-dijon/"
+from = "/organisations/chu-dijon/index.html"
 to = "/organisations/chu-dijon-bourgogne/"
 
 [[redirects]]
-from = "/actualites/resultat/wp5/"
+from = "/actualites/resultat/wp5/index.html"
 to = "/resultats/actualites/work-package/wp5/"
 
 [[redirects]]
-from = "/consortium/"
+from = "/consortium/index.html"
 to = "/ecosysteme/consortium/"
 
 [[redirects]]
-from = "/actualites/work-package/wp3/"
+from = "/actualites/work-package/wp3/index.html"
 to = "/resultats/actualites/work-package/wp3/"
 
 [[redirects]]
-from = "/equipe/emmanuek-gothie/"
+from = "/equipe/emmanuek-gothie/index.html"
 to = "/equipe/emmanuel-gothie/"
 
 [[redirects]]
-from = "/organisations/categories/partenaires-academiques/"
+from = "/organisations/categories/partenaires-academiques/index.html"
 to = "/organisations/categories/consortium/partenaires-academiques/"
 
 [[redirects]]
-from = "/actualites/type/resultat/"
+from = "/actualites/type/resultat/index.html"
 to = "/resultats/actualites/type/resultat/"
 
 [[redirects]]
-from = "/resultats/actualites/2025-04-12-resultat-scientifique-b-pour-le-wp1/"
+from = "/resultats/actualites/2025-04-12-resultat-scientifique-b-pour-le-wp1/index.html"
 to = "/resultats/actualites/2025-01-29-talent-participe-au-lancement-d-eds-nova/"
 
 [[redirects]]
-from = "/actualites/work-package/wp1/"
+from = "/actualites/work-package/wp1/index.html"
 to = "/resultats/actualites/work-package/wp1/"
 
 [[redirects]]
-from = "/actualites/resultat/"
+from = "/actualites/resultat/index.html"
 to = "/resultats/actualites/work-package/"
 
 [[redirects]]
-from = "/gouverrnance/"
+from = "/gouverrnance/index.html"
 to = "/ecosysteme/gouvernance-du-projet/"
 
 [[redirects]]
-from = "/projet/etudes/"
+from = "/projet/etudes/index.html"
 to = "/projet/etudes-de-validation/"
 
 [[redirects]]
-from = "/organisations/chu-bordeaux/"
+from = "/organisations/chu-bordeaux/index.html"
 to = "/organisations/chu-de-bordeaux/"
 
 [[redirects]]
-from = "/equipe/daniel-bovio/"
+from = "/equipe/daniel-bovio/index.html"
 to = "/equipe/daniele-bovio/"
 
 [[redirects]]
-from = "/actualites/2025-04-20-resultat-scientifique-c-pour-le-wp1/"
+from = "/actualites/2025-04-20-resultat-scientifique-c-pour-le-wp1/index.html"
 to = "/resultats/actualites/2025-04-20-resultat-scientifique-c-pour-le-wp1/"
 
 [[redirects]]
-from = "/actualites/publication/"
+from = "/actualites/publication/index.html"
 to = "/resultats/actualites/type/publication/"
 
 [[redirects]]
-from = "/resultats/actualites/2025-04-18-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
+from = "/resultats/actualites/2025-04-18-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/index.html"
 to = "/resultats/actualites/2024-11-15-presentation-du-rhu-talent-lors-du-37eme-congres-de-la-societe-de-chirurgie-vasculaire-et-endovascul/"
 
 [[redirects]]
-from = "/actualites/work-package/"
+from = "/actualites/work-package/index.html"
 to = "/resultats/actualites/work-package/"
 
 [[redirects]]
-from = "/actualites/resultat/wp2/"
+from = "/actualites/resultat/wp2/index.html"
 to = "/resultats/actualites/work-package/wp2/"
 
 [[redirects]]
-from = "/actualites/type/"
+from = "/actualites/type/index.html"
 to = "/resultats/actualites/type/"
 
 [[redirects]]
-from = "/actualites/work-package/wp5/"
+from = "/actualites/work-package/wp5/index.html"
 to = "/resultats/actualites/work-package/wp5/"
 
 [[redirects]]
-from = "/actualites/work-package/wp4/"
+from = "/actualites/work-package/wp4/index.html"
 to = "/resultats/actualites/work-package/wp4/"
 
 [[redirects]]
-from = "/projet/etudes-de-validation/machine-learning-on-retrospective-ecg-data/"
+from = "/projet/etudes-de-validation/machine-learning-on-retrospective-ecg-data/index.html"
 to = "/projet/etudes-de-validation/validation-des-outils-d-evaluation-du-risque-d-avc-cardioembolique-a-partir-des-ecg-realises/"
 
 [[redirects]]
-from = "/actualites/type/publication/"
+from = "/actualites/type/publication/index.html"
 to = "/resultats/actualites/type/publication/"
 
 [[redirects]]
-from = "/liryc/"
+from = "/liryc/index.html"
 to = "/laboratoires/liryc/"
 
