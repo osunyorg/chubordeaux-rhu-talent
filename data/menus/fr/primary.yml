@@ -55,6 +55,15 @@ items:
     descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
+  - title: Publications
+    slug: publications
+    target: "/resultats/publications/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/publications"
+    file: content/fr/publications/_index.html
   - title: Outils
     slug: outils
     target: "/resultats/outils/"
@@ -77,6 +86,7 @@ items:
   - "/resultats/actualites/"
   - "/resultats/bases-de-donnees/"
   - "/resultats/outils/"
+  - "/resultats/publications/"
   path: "/pages/resultats"
   file: content/fr/pages/resultats/_index.html
 - title: Écosystème
