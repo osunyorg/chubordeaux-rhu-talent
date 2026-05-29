@@ -1,0 +1,97 @@
+---
+title: >-
+  Echocardiography Analysis with Deep Learning using Priors: Multi-centric Evaluation of Generalisation
+
+
+
+
+url: "/resultats/publications/2024-echocardiography-analysis-with-deep-learning-using-priors-multi-centric-evaluation-of-generalisation/"
+slug: "echocardiography-analysis-with-deep-learning-using-priors-multi-centric-evaluation-of-generalisation"
+date: 2024-11-30
+lastmod: 2026-05-29T14:49:45+02:00
+meta:
+  hugo:
+    permalink: "/resultats/publications/2024-echocardiography-analysis-with-deep-learning-using-priors-multi-centric-evaluation-of-generalisation/"
+    path: "/publications/2024/echocardiography-analysis-with-deep-learning-using-priors-multi-centric-evaluation-of-generalisation"
+    file: "content/fr/publications/2024/echocardiography-analysis-with-deep-learning-using-priors-multi-centric-evaluation-of-generalisation.html"
+    slug: "echocardiography-analysis-with-deep-learning-using-priors-multi-centric-evaluation-of-generalisation"
+  dates:
+    created_at: 2026-05-28T15:43:04+02:00
+    updated_at: 2026-05-29T14:49:45+02:00
+    published_at: 2024-11-30
+search:
+  id: "a507269f-7cb7-4bc2-b902-558b11060649"
+  url: "/resultats/publications/2024-echocardiography-analysis-with-deep-learning-using-priors-multi-centric-evaluation-of-generalisation/"
+  kind: "Research::Publication"
+  title: >-
+    Echocardiography Analysis with Deep Learning using Priors: Multi-centric Evaluation of Generalisation
+
+
+
+breadcrumbs:
+  - title: >-
+      Accueil
+    path: "/"
+  - title: >-
+      Résultats
+    path: "/resultats/"
+  - title: >-
+      Publications
+    path: "/resultats/publications/"
+  - title: >-
+      Echocardiography Analysis with Deep Learning using Priors: Multi-centric Evaluation of Generalisation
+
+design:
+  full_width: true
+  toc:
+    present: false
+    offcanvas: false
+
+hal:
+  docid: "4841970"
+  url: "https://hal.science/hal-04841970v1"
+abstract: >-
+  Echocardiography is a widely used medical modality to evaluate cardiac function. Automatic solutions for 2D echocardiography analysis could greatly influence cardiac disease diagnosis and prognosis. Within its diverse analysis tasks, segmentation and motion estimation are critical. Segmentation provides insights into cardiac structures, while motion estimation depicts myocardial deformation during cardiac cycles via image registration. These two tasks help extract useful clinical indexes, including ejection fraction and heart wall strain. Deep learning based methods that aim to tackle each of the above tasks have demonstrated efficient performance. However, the predominant focus on a single research dataset raises concerns about the generalisation of these approaches to other datasets and their applicability to downstream clinical tasks (diagnosis, prognosis...). In this paper, we propose a comprehensive echocardiography analysis pipeline, consisting of a segmentation module, a motion tracking module, and a classifier. The segmentation module incorporates a shape prior, leveraging a contour-aware loss function for the endocardium and epicardium. With appropriate data augmentation strategies, this module consistently demonstrates robust segmentation and ejection fraction estimation performance across diverse datasets from distinct medical centres. The motion tracking module integrates a motion prior for the myocardium through a differentiable poly-affine transformation, ensuring smooth and anatomy-aware deformation estimation. This module exhibits improved registration performance and maintains a more acceptable regularity in the deformation field across datasets. Finally, the classifier leverages features extracted from the preceding segmentation and motion tracking modules for downstream classification, providing interpretable inputs. The segmentation model and motion tracking model undergo individual training on two publicly available datasets. Subsequently, the classifier undergoes further training on a third pathology dataset using the estimated features from the previously trained models. To evaluate real-world performance, we directly apply the three trained models to a clinical dataset from a local hospital. Our successful application of these proposed methods in detecting patients with myocardial infarction (0.84 in F1 score and 0.77 in accuracy), a life-threatening cardiac disease, emphasizes their potential for clinical utility. Our codes are available at https://gitlab.inria.fr/epione/echoanalysis.
+journal_title: >-
+  Journal of Machine Learning for Biomedical Imaging
+citation_full: >-
+  Yingyu Yang, Marie Rocher, Pamela Moceri, Maxime Sermesant. Echocardiography Analysis with Deep Learning using Priors: Multi-centric Evaluation of Generalisation. <i>Journal of Machine Learning for Biomedical Imaging</i>, 2024, 2 (November 2024), pp.2293-2325. <a target="_blank" href="https://dx.doi.org/10.59275/j.melba.2024-58fd" rel="noreferrer">⟨10.59275/j.melba.2024-58fd⟩ <span class="sr-only">(lien externe)</span></a>. <a target="_blank" href="https://hal.science/hal-04841970v1" rel="noreferrer">⟨hal-04841970⟩ <span class="sr-only">(lien externe)</span></a>
+authors_list: >-
+  Yingyu Yang, Marie Rocher, Pamela Moceri, Maxime Sermesant
+ref: >-
+  Journal of Machine Learning for Biomedical Imaging, 2024, 2 (November 2024), pp.2293-2325. ⟨10.59275/j.melba.2024-58fd⟩
+links:
+  - label: "HAL"
+    url: "https://hal.science/hal-04841970v1"
+  - label: "DOI"
+    url: "https://dx.doi.org/10.59275/j.melba.2024-58fd"
+  - label: "URL"
+    url: ""
+  - label: "PDF"
+    url: "https://hal.science/hal-04841970/file/MELBA2024_EchoAnalysis_final.pdf"
+researchers:
+  - maxime-sermesant
+citations:
+  - label: "APA"
+    format: "apa"
+    content: >-
+      Yang, Y., Rocher, M., Moceri, P., & Sermesant, M. (2024). Echocardiography Analysis with Deep Learning using Priors: Multi-centric Evaluation of Generalisation. In <i>Journal of Machine Learning for Biomedical Imaging</i>. https://dx.doi.org/10.59275/j.melba.2024-58fd
+  - label: "MLA"
+    format: "mla"
+    content: >-
+      Yang, Yingyu, et al. “Echocardiography Analysis with Deep Learning Using Priors: Multi-Centric Evaluation of Generalisation.” <i>Journal of Machine Learning for Biomedical Imaging</i>, Nov. 2024, https://dx.doi.org/10.59275/j.melba.2024-58fd.
+  - label: "Chicago"
+    format: "chicago"
+    content: >-
+      Yang, Yingyu, Marie Rocher, Pamela Moceri, and Maxime Sermesant. 2024. “Echocardiography Analysis with Deep Learning Using Priors: Multi-Centric Evaluation of Generalisation.” In <i>Journal of Machine Learning for Biomedical Imaging</i>. https://dx.doi.org/10.59275/j.melba.2024-58fd.
+  - label: "Harvard"
+    format: "harvard"
+    content: >-
+      Yang, Y. <i>et al.</i> (2024) “Echocardiography Analysis with Deep Learning using Priors: Multi-centric Evaluation of Generalisation,” <i>Journal of Machine Learning for Biomedical Imaging</i>. Available at: https://dx.doi.org/10.59275/j.melba.2024-58fd.
+  - label: "ISO 690"
+    format: "iso690"
+    content: >-
+      YANG, Yingyu, ROCHER, Marie, MOCERI, Pamela and SERMESANT, Maxime, 2024. <i>Echocardiography Analysis with Deep Learning using Priors: Multi-centric Evaluation of Generalisation</i> [en ligne]. November 2024. Disponible à l'adresse : https://dx.doi.org/10.59275/j.melba.2024-58fd
+anr_project_references:
+  - "ANR-19-P3IA-0002"
+---

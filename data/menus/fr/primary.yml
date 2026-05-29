@@ -62,8 +62,8 @@ items:
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/resultats/publications"
-    file: content/fr/pages/resultats/publications/_index.html
+    path: "/publications"
+    file: content/fr/publications/_index.html
   - title: Outils
     slug: outils
     target: "/resultats/outils/"
