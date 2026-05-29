@@ -1,0 +1,10 @@
+{{ define "itemscope" }}
+  itemscope itemtype="https://schema.org/ScholarlyArticle"
+{{ end }}
+
+{{ define "main" }}
+  {{ $is_in_anr := intersect .Params.anr_project_references site.Params.publications.filters.anr }}
+  {{ if $is_in_anr }}
+    {{ partial "publications/single.html" . }}
+  {{ end }}
+{{ end }}
