@@ -243,6 +243,10 @@ from = "/publications-1/2023-gaps-after-linear-ablation-of-persistent-atrial-fib
 to = "/resultats/publications/2023-gaps-after-linear-ablation-of-persistent-atrial-fibrillation-marshall-plan-clinical-implication/"
 
 [[redirects]]
+from = "/resultats/publications/2025-characterizing-sustained-arrhythmias-in-patients-with-arrhythmic-mitral-valve-prolapse/index.html"
+to = "/resultats/publications/2026-characterizing-sustained-arrhythmias-in-patients-with-arrhythmic-mitral-valve-prolapse/"
+
+[[redirects]]
 from = "/publications-1/2024-atrial-fibrillation-already-known-versus-detected-after-stroke-same-battle/index.html"
 to = "/resultats/publications/2024-atrial-fibrillation-already-known-versus-detected-after-stroke-same-battle/"
 
@@ -460,7 +464,7 @@ to = "/ecosysteme/consortium/"
 
 [[redirects]]
 from = "/publications-1/2025-characterizing-sustained-arrhythmias-in-patients-with-arrhythmic-mitral-valve-prolapse/index.html"
-to = "/resultats/publications/2025-characterizing-sustained-arrhythmias-in-patients-with-arrhythmic-mitral-valve-prolapse/"
+to = "/resultats/publications/2026-characterizing-sustained-arrhythmias-in-patients-with-arrhythmic-mitral-valve-prolapse/"
 
 [[redirects]]
 from = "/publications-1/2017-implications-of-excess-weight-in-the-cardiotoxicity-of-anthracyclines-and-trastuzumab-in-breast-canc-1/index.html"
