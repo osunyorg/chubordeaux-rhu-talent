@@ -142,32 +142,10 @@ footer#document-footer
     *
         font-weight: 600
     aside
-        > ul
-            // *
-            //     display: inline-block !important
-            //     vertical-align: baseline
-            > li, .taxonomies-single.with-label > li, time, .reading-time span
-                border-top: 0 !important
-                display: block
-                > span, .taxonomies-single.with-label > li  > span
-                    @include small
-                    font-weight: 600
-            .authors ul
-                text-align: left
-                padding-left: 0
-                > li
-                    margin-left: 0
-            ul.share
-                justify-content: start
-                > li:first-child
-                    margin-left: pxToRem(-14)
-        .terms
-
-    .taxonomies-single.with-label > li
-        &:not(:first-child)
-        > ul
-            li
-                display: block
-                margin-left: 0 !important
-            a
-                text-align: left
+        .single-meta,
+        .single-meta .taxonomies > ul
+            > li
+                flex-direction: column
+                gap: $spacing-1 !important
+                > ul
+                    text-align: left !important
